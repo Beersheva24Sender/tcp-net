@@ -7,4 +7,4 @@ public interface TcpConfigurationProperties {
     String RESPONSE_DATA_FIELD = "responseData";
     int DEFAULT_INTERVAL_CONNECTION = 3000;
     int DEFAULT_TRIALS_NUMBER_CONNECTION = 10;
-}
+}   
