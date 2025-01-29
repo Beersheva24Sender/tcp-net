@@ -10,7 +10,7 @@ public class TcpServer implements Runnable {
     private static final int DEFAULT_LIMIT_NON_OK_RESPONSES_IN_ROW = 10;
     Protocol protocol;
     int port;
-    ExecutorService executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
+    ExecutorService executor = Executors.newFixedThreadPool(10);
     int socketTimeout;
     int idleConnectionTimeout;
     int limitRequestsPerSecond;
