@@ -5,7 +5,7 @@ import java.util.concurrent.*;
 
 public class TcpServer implements Runnable {
     private static final int DEFAULT_SOCKET_TIMEOUT = 100;
-    private static final int DEFAULT_IDLE_CONNECTION_TIMEOUT = 60000;
+    private static final int DEFAULT_IDLE_CONNECTION_TIMEOUT = 180000;
     private static final int DEFAULT_LIMIT_REQUESTS_PER_SEC = 5;
     private static final int DEFAULT_LIMIT_NON_OK_RESPONSES_IN_ROW = 10;
     Protocol protocol;
